@@ -27,6 +27,9 @@ function App() {
 
   return (
     <div>
+      <Category />
+
+=======
     <NavBar />
     <Home />
     </div>

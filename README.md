@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Project Philosophy:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Gig-Finder is a Job Board application for quick jobs.It's a platform that will provide users an easy way to find jobs online.
 
-## Available Scripts
+# Features:
 
-In the project directory, you can run:
+The home page displays a description of the application, and a instructs the user to click on the Register link in the navigation in order to view all of the categories available.
 
-### `npm start`
+Upon clicking on "category" in the navigation there is a dropdown menu at the top of the page to allow you to sort the listings by category.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Below the dropdown menu is a form where users can create new categories.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Below the form is all of the listings which are displayed with a title, body, and category and have the ability to be edited as well as deleted.
 
-### `npm test`
+If you would like to create a new listing click "New Listing" in the navigation which will take you to a form to fill out.Once you are done filling out the form click "Create Listing" which will automatically take you to the "listings" page where you can see your new listing that you created.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Description of app:
 
-### `npm run build`
+This is a single page full-stack CRUD application that has a back-end that was creating using Ruby and a sinatra API which stores data which is then fetched from : http://localhost:0000/catories, http://localhost:0000/listings and localhost:0000/users. The front-end was created using React and Javascript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+On the front end the application uses a total of 10 components: App.js, Home.js, Navigation.js, Listings.js, Listing.js, New Listing.js, EditListing.js, NewCategory.js, Filter.js and Users.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application has 3 different client-side routes throughout it using React-Router: Home, Listings, and NewListing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Styling was done using CSS
 
-### `npm run eject`
+# Technologies used:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React
+Javascript
+HTML
+CSS
+Ruby
+Sinatra
+Active Record
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Fork and clone both the front-end and back-end repositories
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Back-end
 
-## Learn More
+cd into the project directory
+run 'bundle install'
+run 'rake db:migrate'
+run start-server to start the server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Front-end
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+cd into the project directory
+run 'npm install'
+run 'npm start' and the application will open into browser
