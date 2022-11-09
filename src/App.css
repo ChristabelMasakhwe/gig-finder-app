@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * > * {
@@ -66,3 +67,25 @@ button {
     display: initial;
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@200&display=swap');
+
+.newlisting {
+  background-color: #E6EFFA;
+}
+#forminput input, select, button {
+  height: 50px;
+  width: 500px;
+  background-color: #D9D9D9;
+  color: black;
+  border: none;
+  margin: 20px;
+  font-size: medium;
+  border-radius: 1em;
+  text-align: center;
+}
+
+
+
+
+
