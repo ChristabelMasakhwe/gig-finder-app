@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-// import {useNavigate} from "react-router-dom";
 
 function Newlisting({categories, jobListings, setJobListings}) {
     const [title, setTitle] = useState("");
@@ -7,7 +6,7 @@ function Newlisting({categories, jobListings, setJobListings}) {
     const [category, setCategory] = useState("");
     const [date, setDate] = useState({});
 
-    // const navigate = useNavigate();
+    
   
     const newList = {
         title,

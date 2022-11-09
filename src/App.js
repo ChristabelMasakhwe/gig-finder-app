@@ -22,9 +22,15 @@ function App() {
     });
   }, []);
 
+  // const addNewCategory = (category) => {
+  //   setCategories([...categories, category])
+  // }
 
   return (
     <div>
+    {/* <NavBar />
+    <Home />
+    <About /> */}
     <Newlisting 
     categories={categories} 
     jobListings={jobListings} 
