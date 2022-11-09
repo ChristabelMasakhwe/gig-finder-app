@@ -12,7 +12,7 @@ function NavBar() {
                     <a href="/home">Home</a>
                     <a href="/about">About us</a>
                     <a href="/category">category</a>
-                    <a href="/listing">Job Listing</a>
+                    <a href="/listing" id="listing">Job Listing</a>
                 </div>
             </div>
         </header>

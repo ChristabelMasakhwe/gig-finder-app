@@ -59,15 +59,16 @@ header{
   flex: 1;
 }
 .navlinks a{
+  font-size: 24px;
   text-decoration: none;
-  color: #000;
+  color:rgb(90,115,142);
 }
 #paragraph{
   font-size: 60px;
 }
 
 #heading{
-  font-size: 50px;
+  font-size: 45px;
   margin-bottom:10px;
 }
 
@@ -75,7 +76,7 @@ header{
   text-align: center;
 }
 .tagline p{
-  font-size: 24px;
+  font-size: 40px;
 }
 .tagline{
   display: flex;
@@ -91,5 +92,13 @@ header{
   background-color: rgb(90,115,142);
 }
 
+#button{
+  color:white;
+}
+
+#listing{
+
+color: #DF843B;
+}
 
 
