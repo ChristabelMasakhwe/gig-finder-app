@@ -11,7 +11,7 @@ function Home() {
           <div id="heading">
             <h1>GIG-FINDER</h1>
           </div>
-          <p>Whether you are looking for a new job
+          <p id="paragraph">Whether you are looking for a new job
             or just trying to make some extra money,
             our platform will connect you with
             opportunities that suit your style and location.</p>

@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 function NavBar() {
     return (
         <div className="navbar" >
-            <div>
+            <div class="logo">
                 <img src={logo} alt="logo" height="60px" />
             </div>
             <div className="navlinks">
