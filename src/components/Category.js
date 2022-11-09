@@ -26,12 +26,15 @@ useEffect(() => {
                 <option value="freelance">Freelance</option>
             </select>
 
+            <h1 className="job-list-title">Open opportunities</h1>
+
             <div className="job-list card">
                 {jobs.map((job, id) => {
-                return (<JobCard key={id} 
+                return (<JobCard key={id}
                     title = {job.title}
                     body = {job.body}
                     date = {job.date}
+                    category_ = {job.category_id}
                 ></JobCard>);
                 })}
             </div>
