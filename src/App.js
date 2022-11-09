@@ -1,10 +1,17 @@
 
 import React from "react";
+
+import About from "./components/About";
+import "./App.css"
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar"
 import Home from "./components/Home"
 import "./App.css"
 
+
 function App() {
+  return (
+    <div>
   const [categories, setCategories] = useState([]);
   const [jobListings, setJobListings] = useState([]);
 
@@ -27,11 +34,11 @@ function App() {
 
   return (
     <div>
-      <Category />
-
-=======
-    <NavBar />
+     <NavBar />
+     <Category />
     <Home />
+    <About />
+    <Footer />
     </div>
   );
 }
