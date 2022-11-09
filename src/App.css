@@ -1,38 +1,80 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@200&display=swap');
+
+
+.about{
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+width: 100%;
+text-align: center;
+background-color: #E6EFFA;
+justify-content: center;
+padding-top: 0.1px;
+height: 700px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center left;
+
+}
+.fa{
+  font-size:24px
+}
+
+.footer {
+  background-color: #5A738E;
+  box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+width: 100%;
+padding-top: 0.1px;
+height: 250px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center left;
+color: #FFFFFF;
+display: flex;
+text-align: left;
+justify-content: space-around;
+font-weight: bold;
+}
+.footer>h2,h3{
+  font-size: large;
+  font-weight: bold;
+}
+i{
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.h{
+
+  font-size: xx-large;
+  font-weight: bold;
+}
+.copy{
+  color: #FFFFFF;
+  margin-top: -30px;
+  margin-left: 450px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+.get>h2{
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+.about>h1{
+
+  color: #DF843B;
   text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.about>p{
+  text-align: center;
+  color: #5A738E;
+  padding-top: 20px;
+  font-weight: bold;
+
+}
+.ext-center{
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
