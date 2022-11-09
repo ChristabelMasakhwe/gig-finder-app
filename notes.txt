@@ -9,8 +9,5 @@ COMPONENTS
 ##Category
 ##Job Listing
 ##Register
-
-##COLORS
-E6EFFA
-5A738E 
-DF843B
+    
+##

@@ -1,11 +1,8 @@
 
 import React from "react";
-
-import React, {useState, useEffect} from "react";
-import Newlisting from "./components/Newlisting"
-
+import NavBar from "./components/NavBar"
+import Home from "./components/Home"
 import "./App.css"
-import Register from './components/Register'
 
 function App() {
   const [categories, setCategories] = useState([]);
@@ -30,15 +27,8 @@ function App() {
 
   return (
     <div>
-
-      <Register/>
-
-   
-    <Newlisting 
-    categories={categories} 
-    jobListings={jobListings} 
-    setJobListings={setJobListings}/>
-
+    <NavBar />
+    <Home />
     </div>
   );
 }
