@@ -1,8 +1,11 @@
 import React, {useState, useEffect} from "react";
 import JobCard from './JobCard';
+import Filter from "./Filter";
 
 
 function Category () {
+
+    const [selectedCategory, setSelectedCategory] = useState("All");
 
     const [jobs, setJobs] = useState([])
 
@@ -14,22 +17,29 @@ useEffect(() => {
     });
 }, []);
 
+function handleCategoryChange(category) {
+    setSelectedCategory(category);
+}
+
+const jobsToDisplay = jobs.filter((job) => {
+    if (selectedCategory === "All") return true;
+
+    return job.category === selectedCategory;
+});
+    console.log(jobsToDisplay)
     return (
         <div id='category'>
             <h1 className="main-title">Category</h1>
             <h1 id='header'>Job Type</h1>
-            <label id='label'>select categories</label>
-            <select name="job-type" id="job-type" form="job-category-form">
-                <option value="all">All</option>
-                <option value="tech">Tech</option>
-                <option value="entertainment">Entertainment</option>
-                <option value="freelance">Freelance</option>
-            </select>
+
+            <Filter 
+            category={selectedCategory}
+            onCategoryChange={handleCategoryChange}/>
 
             <h1 className="job-list-title">Open opportunities</h1>
 
             <div className="job-list card">
-                {jobs.map((job, id) => {
+                {jobsToDisplay.map((job, id) => {
                 return (<JobCard key={id}
                     title = {job.title}
                     body = {job.body}
