@@ -1,22 +1,22 @@
 // import React from "react";
-// import {Link} from "react-router-dom";
-// // import Nav from 'react-bootstrap/Nav';
-// // import Navbar from 'react-bootstrap/Navbar';
+// import logo from "../assets/logo.png";
 
 // function NavBar() {
 //     return (
-//       <div>
-       
-//         <NavBar className="navbar">
-//            <Link to="/home">Home</Link>
+//       <div className="navbar" >
+//         <div>
+//           <img src={logo} alt="logo" height="60px"/>
+//         </div>
+//       <div className="navlinks">
+//            <a href="/home">Home</a>
   
-//         <Link to="/about">About us</Link>
+//         <a href="/about">About us</a>
   
-//         <Link to="/category">category</Link>
+//         <a href="/category">category</a>
         
-//         <Link to="/listing">Job Listing</Link>
-//         </NavBar>
-//       </div>
+//        <a href="/listing">Job Listing</a>
+//      </div>
+//    </div>
 //     )
 //   }
    
