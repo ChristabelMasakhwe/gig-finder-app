@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function JobCard (props){
-    console.log(props)
     return (
         <div className="job-card">
             <div className='card-item'>
