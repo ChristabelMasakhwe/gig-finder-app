@@ -32,7 +32,6 @@ function Newlisting({categories, jobListings, setJobListings}) {
           .then((r) => r.json())
           .then((jobListing) => {
             addNewListing(jobListing);
-            // navigate("/job_listings");
           });
       };
     
@@ -41,7 +40,7 @@ function Newlisting({categories, jobListings, setJobListings}) {
       }
     
     return (
-        <div className="newlisting">
+        <div className="newlisting" id="listing">
             <h1 style={{color: "#DF843B", textAlign: "center"}}>New Listing</h1>
             <div id="forminput" align="center">
             <form id="form" onSubmit={handleSubmit} >
@@ -76,10 +75,10 @@ function Newlisting({categories, jobListings, setJobListings}) {
                 <option key={category.id} value={category.id}>
                     {category.job_type}
                 </option>
-             ))}
+              ))}
                 </select>
                 <button style={{backgroundColor: "#DF843B", color: "#e6effa", width:"250px"}} 
-                     type="submit">create new listing</button>
+                      type="submit">create new listing</button>
                 </form>
             </div>
         </div>

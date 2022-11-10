@@ -35,26 +35,26 @@ function Register() {
     };
 
   return (
-    <section>
-        <div className="Register" style={{textAlign:"center", color:"#5A738E"}}>
+    <div id="register">
+        <div className="Register" style={{textAlign:"center", color:"#5A738E", fontWeight:"bold"}}>
                 <h2>New User</h2>
                 <span>Welcome to Gig-Finder!</span>
 
-                <div className="Column">
-                <form onSubmit={handleSubmit}> 
+                <div id="Column" align='center'>
+                <form id='register-form' onSubmit={handleSubmit} > 
                     <input 
-                       type="text" 
-                       value={name}
-                       placeholder="Username"
-                       onChange={(e) => setName(e.target.value)}
-                       />
+                        type="text" 
+                        value={name}
+                        placeholder="Username"
+                        onChange={(e) => setName(e.target.value)}
+                        />
 
-                     <input 
-                       type="text" 
-                       value={location}
-                       placeholder="Location"
-                       onChange={(e) => setLocation(e.target.value)}
-                       /> 
+                      <input 
+                        type="text" 
+                        value={location}
+                        placeholder="Location"
+                        onChange={(e) => setLocation(e.target.value)}
+                        /> 
 
                     <input 
                       type="text"
@@ -70,7 +70,7 @@ function Register() {
             </div>
         </div>
         {/* </div> */}
-    </section>
+    </div>
     
   )
 }
