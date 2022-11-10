@@ -14,7 +14,7 @@ export default function JobCard (props){
                 <p>{props.category_id}</p>
             </div>
             <div className='card-item'>
-                <button id='submit apply'>Apply</button>
+                <button className='btn-apply' id='submit apply'>Apply</button>
             </div>
         </div>
     )

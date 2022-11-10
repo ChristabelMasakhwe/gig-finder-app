@@ -24,9 +24,9 @@ function Footer(){
       <p>Help Desk</p>
       <p>Forums</p>
     </div>
- </div>
- <p className='copy'>@All rights deserved,terms and condition applied.</p>
- </div>
+  </div>
+  <p className='copy'>@All rights deserved,terms and condition applied.</p>
+  </div>
       
   )
 }

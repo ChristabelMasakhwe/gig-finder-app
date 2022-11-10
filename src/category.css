@@ -44,16 +44,14 @@
     color: #DF843B;
     text-align: center;
 }
-.job-list{
-    flex-flow: wrap;
-}
 
-button{
+.btn-apply{
     background-color: #5A738E;
     border-radius: 9px;
     color: #fff;
     bottom: 0;
     font-size: 20px;
+    width: 75%;
 }
 
 #label, #job-type{
@@ -61,10 +59,10 @@ button{
     font-size: 24px;
 }
 
-.job-list{
+.job-list-card{
     display: flex;
+    flex-wrap: wrap;
 }
-
 .card-item{
     background-color: #D9D9D9;
 }

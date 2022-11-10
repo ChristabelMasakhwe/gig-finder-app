@@ -38,7 +38,7 @@ const jobsToDisplay = jobs.filter((job) => {
 
             <h1 className="job-list-title">Open opportunities</h1>
 
-            <div className="job-list card">
+            <div className="job-list-card" >
                 {jobsToDisplay.map((job, id) => {
                 return (<JobCard key={id}
                     title = {job.title}

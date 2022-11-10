@@ -11,23 +11,18 @@
 
 .home{
   background-color: #e6effa;
-color: #5A738E ;
-
+  color: #5A738E ;
 }
-/* #image{
-  display: flex;
- justify-content: flex-end;
- margin-top: 0px;
-} */
+
 .container{
-width: 90%;
-margin-inline: auto;
-display: flex;
-justify-content: space-between;
-align-items: center;
+  width: 90%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .container img{
-margin-right: -20px;
+  margin-right: -20px;
 }
 
 #heading{
@@ -36,7 +31,6 @@ margin-right: -20px;
 header{
   width: 100%;
   background-color: #e6effa;
-
 }
 
 .navbar{
@@ -46,6 +40,7 @@ header{
   align-items: center;
   margin-inline: auto;
   justify-content: space-between;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3);
 }
 
 .navlinks{
@@ -71,11 +66,9 @@ header{
 #heading{
   font-size: 45px;
   margin-bottom:10px;
-}
-
-#heading{
   text-align: center;
 }
+
 .tagline p{
   font-size: 40px;
   text-align: center;
@@ -100,11 +93,9 @@ header{
 }
 
 #listing{
-
-color: #DF843B;
+  color: #DF843B;
 }
-
-.logo{
-
+#btn-register{
+  text-decoration: none;
+  color: #fff;
 }
-
