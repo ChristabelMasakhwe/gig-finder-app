@@ -16,11 +16,11 @@ If you would like to create a new listing click "New Listing" in the navigation 
 
 # Description of app:
 
-This is a single page full-stack CRUD application that has a back-end that was creating using Ruby and a sinatra API which stores data which is then fetched from : http://localhost:0000/catories, http://localhost:0000/listings and localhost:0000/users. The front-end was created using React and Javascript
+This is a single page full-stack CRUD application that has a back-end that was creating using Ruby and a sinatra API which stores data which is then fetched from : http://localhost:9292/categories, http://localhost:9292/job-listings and http://localhost:9292/users. The front-end was created using React and Javascript
 
-On the front end the application uses a total of 10 components: App.js, Home.js, Navigation.js, Listings.js, Listing.js, New Listing.js, EditListing.js, NewCategory.js, Filter.js and Users.js
+On the front end the application uses a total of 9 components: App.js, Home.js, NavBar.js, NewListing.js, Category.js, Filter.js and JobCard.js, Filter.js and Register.js
 
-The application has 3 different client-side routes throughout it using React-Router: Home, Listings, and NewListing
+The application has 5 different client-side routes using React-RouterDOM: Home, About, Category and New-Listing and Register.
 
 Styling was done using CSS
 
