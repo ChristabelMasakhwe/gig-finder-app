@@ -50,3 +50,5 @@ run start-server to start the server
 cd into the project directory
 run 'npm install'
 run 'npm start' and the application will open into browser
+
+<a href="https://gig-finder-app.vercel.app/">front-end</a>
